@@ -33,13 +33,14 @@
 
     <header class="header">
         <nav class="top clearfix">
-            <a href="javascript:;" data-action="switch-fullscreen-mode"><span><i class="icon-expand"></i> 全屏浏览</span></a>
-            <!-- <span class="right"><a href="javascript:;" data-action="switch-language"><span><i class="icon-earth"></i> View in English</span></a>
+            <a href="javascript:void(0);" data-action="switch-fullscreen-mode"><span><i class="icon-expand"></i> 全屏浏览</span></a>
+            <!-- <span class="right"><a href="javascript:void(0);" data-action="switch-language"><span><i class="icon-earth"></i> View in English</span></a>
             </span> -->
         </nav>
 
         <div class="header-background">
-            <img id="back-sticker" src="./src/images/my-back.png" alt="我的背影">
+            <img id="back-sticker" src="./src/images/beiying.png" alt="我的背影" style="bottom: -180px;
+			right: -3px;">
         </div>
 
         <div class="title">
@@ -54,9 +55,8 @@
 
     <section id="intro" class="content">
         <div class="container">
-            <h2>我是</h2>
-            <p>在上过两个星期小学后，我便退学回家自学，成为一名 homeschooler。从此，应试教育和学校里面所发生的一切，都与我无关。</p>
-            <p>现在我 21 岁，在自学的这些年里，我自己学，做自己。追寻自己的所想所爱，并试着将各种兴趣爱好串连在一起。</p>
+            <p>在大二二学期的时候，我参加了专业技能的进修。从此，我开始忙起来了，学校、培训技能、宿舍，三点一线。</p>
+            <p>现在我 23 岁，在今后的这些年里，我自学，研究。追寻自己的所想所爱，并试着将各种兴趣爱好串连在一起。</p>
         </div>
     </section>
 
@@ -65,40 +65,49 @@
     <section id="travel" class="content">
         <div class="container">
             <h2>行万里路</h2>
-            <p>旅行，是我的主要学习方式之一，我每年有四分之一的时间都在路上。天地之间，有一本无字书，走着、看着，也思考着，永远也学不完。</p>
+            <p>旅行，是我的主要学习方式之一，虽然有点宅，但还是花点时间去走走。天地之间，有一本无字书，走着、看着，也思考着，永远也学不完。</p>
             <p>对我来说，走遍世界不仅仅是个梦想。</p>
         </div>
         <div id="maps">
-            <h3>我在中国的旅行足迹</h3>
-
-    </section>
-
-    <!-- Photography -->
-
-    <section id="photography" class="content">
-        <div class="container">
-            <h2>光的艺术</h2>
-            <p>我爱摄影，尤其是壮美的自然风光。因为旅行，我爱上了摄影；也因为摄影，我更热爱旅行。</p>
-            <a href="javascript:;" data-action="reload-montage"><i class="icon-shuffle"></i> <span>换一换</span></a>
-        </div>
-        <div id="montage" class="row uniform 25% ready">
+            <h3>我在中国的行走足迹</h3>
         </div>
     </section>
 
-    <!-- Design -->
+    <!-- Feelings -->
 
-    <section id="design" class="content">
+    <section id="feelings" class="content">
         <div class="container">
-            <h2>我爱设计</h2>
-            <p>我设计各种各样的东西，从平面设计到室内，再到用户界面和网页设计。</p>
-            <p>我很喜欢把我的创造性发挥到极限，更享受从无到有、渐渐完美的设计过程。我爱设计，也相信它会让生活更美好。</p>
+            <h2>少年的情怀</h2>
+            <p>我爱动漫，因为有一颗童心，即使已经成年，但依然留有几分童心，留住几分最真实的自我。</p>
+            <a href="javascript:void(0);" data-action="reload-montage"><i class="icon-shuffle"></i> <span>换一换</span></a>
+        </div>
+        <div id="montage" class="container uniform ready">
+        </div>
+    </section>
+
+    <!-- Painting -->
+
+    <section id="painting" class="content">
+        <div class="container">
+            <h2>我爱绘画</h2>
+            <p>绘画能诉说那些用文字跟语言无法描述的感动。</p>
+            <p>我很喜欢素描，简单方便。每当心有烦恼之时，我总会提起铅笔，专注地绘画，绘画使我心静。</p>
 
             <div class="row uniform">
                 <figure class="6u">
-                    <img src="./src/images/blog-mockup.jpg" data-original="https://dn-ssl-v6-res-dandyweng.qbox.me/images/blog-mockup.jpg" alt="我的博客主页" style="display: inline;">
+                    <img src="./src/images/photo-1.jpg" title="2014-06-13" style="display: inline;">
                 </figure>
                 <figure class="6u">
-                    <img src="./src/images/album-mockup-sideview.jpg" data-original="https://dn-ssl-v6-res-dandyweng.qbox.me/images/album-mockup-sideview.jpg" alt="我的影集" style="display: inline;">
+                    <img src="./src/images/photo-2.jpg" title="2014-06-13" style="display: inline;">
+                </figure>
+                <figure class="6u">
+                    <img src="./src/images/photo-3.jpg" title="2014-06-13" style="display: inline;">
+                </figure>
+                <figure class="6u">
+                    <img src="./src/images/photo-4.jpg" title="2015-08-25" style="display: inline;">
+                </figure>
+                <figure class="6u">
+                    <img src="./src/images/photo-5.jpg" title="2016-09-21" style="display: inline;">
                 </figure>
             </div>
         </div>
@@ -106,7 +115,7 @@
 
     <!-- Programming -->
 
-    <section id="programming" class="content">
+    <!-- <section id="programming" class="content">
         <div class="container">
             <h2>逻辑思维</h2>
             <p>我喜欢挑战自己，而编程恰好充满挑战性。更重要的是，我的逻辑思维因此得到提高。在过去六年里，我先后学了 Visual Basic、HTML、CSS、JavaScript、PHP 和 SQL 等多种计算机语言，我还在不断学习新的编程语言，比如 Swift 和 Objective-C。</p>
@@ -137,11 +146,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Apple -->
 
-    <section id="apple" class="content">
+    <!-- <section id="apple" class="content">
         <div class="container">
             <h2>一个 <i class="icon-apple"></i> 粉丝</h2>
             <p>我是一个铁杆“果粉”，我喜爱的不仅仅是 Apple 的产品，更推崇其标志性的极简主义设计风格。我曾排队 14 小时购得中国第一台 iPad 2，之后又为了 iPhone 4s 排队 20 小时。目前我正在学习开发 iOS app，下面这个是我的最新作品。</p>
@@ -150,18 +159,18 @@
                 <span>了解这个 app 的详情信息 »</span>
             </a>
         </div>
-    </section>
+    </section> -->
 
     <!-- More -->
 
-    <section id="more" class="content">
+    <!-- <section id="more" class="content">
         <div class="container">
             <h2>我的故事</h2>
             <p>从我 18 岁起，就有幸受邀到国内一些知名高校演讲，与同龄人分享我的故事、思考和体会。下面的视频是我在同济大学的演讲，这是我第一次登上讲台，很紧张，还有些青涩。不过，还算勉强把想表达的都说出来了，如果你想更深入地了解我，那不妨一看。</p>
 
             <div class="row uniform">
                 <div id="video" class="7u 12u(tablet)">
-                    <a href="javascript:;" data-action="play-video" data-youku-id="XNjUyOTM0ODI0" data-youtube-id="F4BWNANyNhs">
+                    <a href="javascript:void(0);" data-action="play-video" data-youku-id="XNjUyOTM0ODI0" data-youtube-id="F4BWNANyNhs">
                         <img src="./src/images/tju-speech.jpg" data-original="https://dn-ssl-v6-res-dandyweng.qbox.me/images/tju-speech.jpg" alt="我在同济大学的演讲" style="display: inline;">
                         <i class="icon-play"></i>
                     </a>
@@ -175,7 +184,7 @@
             </div>
             <p class="extra-links"><a href="http://v.youku.com/v_show/id_XNjUyOTM0ODI0.html" target="_blank" rel="external nofollow">去优酷观看</a> <span>|</span> <a href="https://www.youtube.com/watch?v=F4BWNANyNhs" target="_blank" rel="external nofollow">在 YouTube 上观看</a></p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Say Hello -->
 
@@ -208,7 +217,7 @@
             <p>如果你与我沟通，可以发送邮件到</p>
             <a href="mailto:1296567115@qq.com">1296567115@qq.com</a>
             <h3>你可以在这些社交网络上关注我</h3>
-            <a href="javascript:;">@Mo Cheng</a>
+            <a href="javascript:void(0);">@Mo Cheng</a>
 
             <div class="sns-icons row uniform 0%">
                 <!-- <div class="2u">
@@ -224,14 +233,14 @@
                     <a href="http://weibo.com/u/2761653680" target="_blank" rel="external nofollow"><i class="icon-weibo"></i></a>
                 </div>
                 <div class="2u">
-                    <a href="javascript:;" target="_blank" rel="external nofollow"><i class="icon-wechat"></i></a>
+                    <a href="javascript:void(0);" target="_blank" rel="external nofollow"><i class="icon-wechat"></i></a>
                 </div>
                 <div class="2u">
                     <a href="https://github.com/soxism-cheng" target="_blank" rel="external nofollow"><i class="icon-github"></i></a>
                 </div>
             </div>
 
-            <p>你也可以收藏<a href="https://soxism-cheng.github.io/personal-blog/index.html" target="_blank" rel="external">我的博客</a>关注我的新动态。</p>
+            <p>你也可以点赞、收藏<a href="https://github.com/SOXISM-CHENG/personal-blog" target="_blank" rel="external">我的博客github源码</a>，或者扫描下方的微信二维码加为好友，关注我的新动态。</p>
         </div>
     </section>
 
@@ -239,7 +248,7 @@
 
     <footer>
         <div class="container">
-            <!-- <img src="./src/images/qr.png" data-original="https://dn-ssl-v6-res-dandyweng.qbox.me/images/qr.png" width="100" alt="本页二维码" title="用微信扫描可分享给好友或朋友圈" style="display: inline;"> -->
+            <img src="./src/images/weixin.png" width="200" alt="微信二维码" title="用微信扫描可加我好友哦" style="display: inline;">
             <div id="back-to-top" data-action="scroll-to-top">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64">
 					<path fill="#cf4a5c" ></path>
