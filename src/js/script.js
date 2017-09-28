@@ -2473,6 +2473,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
     }
 
     function preload() {
+
         if (richflag) {
             Array.prototype.remove = function(g) { for (var f = 0; f < this.length; f++) { if (this[f] == g) { this.splice(f, 1) } } };
 
@@ -2702,7 +2703,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
         audio = document.getElementById("sound");
         circle_total = Math.round(audio.duration);
         var a = (window.AudioContext || window.webkitAudioContext || window.mozAudioContext || window.oAudioContext || window.msAudioContext);
-        audio.play();
+        audio.play(audio);
         audioContext = new a();
         analyser = audioContext.createAnalyser();
         source = audioContext.createMediaElementSource(audio);

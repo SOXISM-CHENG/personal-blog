@@ -617,7 +617,6 @@ section#more p.extra-links span {
 }
 
 section#say-hello {
-    background-image: url("https://dn-ssl-v6-res-dandyweng.qbox.me/images/nyc-background.jpg");
     background-size: 100%;
     background-size: cover;
     padding-top: 3.5em;
@@ -737,32 +736,32 @@ body>footer {
 
 @font-face {
     font-family: 'hanzo';
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.eot");
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.eot?#iefix") format('embedded-opentype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.woff2") format('woff2'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.woff") format('woff'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.ttf") format('truetype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/hattori_hanzo-webfont.svg#hattori_hanzolight") format('svg');
+    src: url("../fonts/hattori_hanzo-webfont.eot");
+    src: url("../fonts/hattori_hanzo-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/hattori_hanzo-webfont.woff2") format('woff2'), url("../fonts/hattori_hanzo-webfont.woff") format('woff'), url("../fonts/hattori_hanzo-webfont.ttf") format('truetype');
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Allura';
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.eot");
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.eot?#iefix") format('embedded-opentype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.woff2") format('woff2'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.woff") format('woff'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.ttf") format('truetype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/allura-webfont.svg#allura") format('svg');
+    src: url("../fonts/allura-webfont.eot");
+    src: url("../fonts/allura-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/allura-webfont.woff2") format('woff2'), url("../fonts/allura-webfont.woff") format('woff'), url("../fonts/allura-webfont.ttf") format('truetype');
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Source Sans Light';
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.eot");
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.eot?#iefix") format('embedded-opentype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.woff2") format('woff2'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.woff") format('woff'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.ttf") format('truetype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") format('svg');
+    src: url("../fonts/sourcesanspro-light-webfont.eot");
+    src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/sourcesanspro-light-webfont.woff2") format('woff2'), url("../fonts/sourcesanspro-light-webfont.woff") format('woff'), url("../fonts/sourcesanspro-light-webfont.ttf") format('truetype');
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'icomoon';
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/icons/icomoon.eot?-g1zifx");
-    src: url("https://dn-ssl-v6-res-dandyweng.qbox.me/icons/icomoon.eot?-g1zifx#iefix") format('embedded-opentype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/icons/icomoon.ttf?-g1zifx") format('truetype'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/icons/icomoon.woff?-g1zifx") format('woff'), url("https://dn-ssl-v6-res-dandyweng.qbox.me/icons/icomoon.svg?-g1zifx#icomoon") format('svg');
+    src: url("../fonts/icomoon.eot?-g1zifx");
+    src: url("../fonts/icomoon.eot?-g1zifx#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf?-g1zifx") format('truetype'), url("../fonts/icomoon.woff?-g1zifx") format('woff');
     font-weight: normal;
     font-style: normal
 }
