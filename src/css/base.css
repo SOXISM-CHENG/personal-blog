@@ -228,4 +228,21 @@ footer a.icp {
         font-size: 14px;
         line-height: 1.35;
     }
+    section#feelings #montage a {
+        margin-bottom: 3%!important;
+        margin-right: 3%!important;
+        width: 47%!important
+    }
+    section#feelings #montage img {
+        height: 114px!important;
+    }
+    section#contact {
+        padding-top: 0!important;
+    }
+    section#painting .row {
+        margin-bottom: 0!important;
+    }
+    section#painting .row img {
+        height: 235px;
+    }
 }
